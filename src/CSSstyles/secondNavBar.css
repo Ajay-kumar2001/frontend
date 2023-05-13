@@ -1,0 +1,7 @@
+.secondNavBar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(29, 27, 39);
+    height: 40px;
+}

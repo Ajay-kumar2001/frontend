@@ -1,0 +1,79 @@
+.mainNavbar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    height: 40px;
+    
+}
+.linkColor{
+    color: white;
+    text-decoration: none;
+}
+.search{
+    width: 400px;
+    height:30px;
+}
+.searchbox{
+    height:35px;
+    background-color: rgb(254, 255, 255);
+
+}
+.BrandImg{
+width: 200px;
+height: 45px;
+background-color: rgb(29, 29, 29);
+}
+.registerPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 150px;
+    height: 60vh;
+    
+
+    
+}
+.registerPage{
+    transform: translate(10%,-150%);
+
+}
+.registerPage input{
+    width: 250px;
+    height: 40px;
+}
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 150px;
+    height: 30vh;
+    
+    }
+    .loginPage input{
+        width: 250px;
+        height: 40px;
+    }
+   
+    .loginfrom{
+        position: relative;
+        transform: translate(10%,-290%);
+        z-index: 100;
+        top :-30%
+    }
+    .userImg{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .userCon{
+        display: flex;
+        width: 200px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
